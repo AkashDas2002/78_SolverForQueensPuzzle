@@ -2,22 +2,10 @@
 
 # represent a solver for the queens problem
 
-## [your name here]'s remarks
+## Akash's remarks
 
 ### citations / worked with / received help from
-Replace this paragraph with a solid accounting of your sources.
-People have become either lackadaisical or dishonest
-about crediting others for ideas and help. 
-If I grade this work, I will rely on this section as
-a complete listing for judging academic honesty.
-
-This list may omit sources common to everyone in the course,
-including...
-* Piazza threads
-* class-wide discussions
-* communication with Holmes via the class
-web site or GitHub repos.
-
+Other than piazza threads, class-wide discussions, GitHub repos, and the class web site, I didn't use any outside sources or received help from anybody.
 
 ## Holmes's remarks
 
@@ -110,3 +98,4 @@ The number of solutions is given in
 [this table](https://oeis.org/A000170/b000170.txt )
 in N.J.A. Sloane's amazing
 [*The On-Line Encyclopedia of Integer Sequences*](https://oeis.org)
+
