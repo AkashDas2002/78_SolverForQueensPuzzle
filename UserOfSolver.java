@@ -1,6 +1,5 @@
 /**
   test SolverForQueensPuzzle
-
   command line arguments:
     o  the width of biggest board
     o  (optional) max number of solutions to show
