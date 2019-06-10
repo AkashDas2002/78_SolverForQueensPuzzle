@@ -4,9 +4,9 @@
  */
 
 public class BoardForQueensPuzzle {
-    private int lastRankFilled;  /* the highest-numbered rank
+    public int lastRankFilled;  /* the highest-numbered rank
       that holds a queen. */
-    private int[] filesWithQueens;  /* indexed by rank, giving
+    public int[] filesWithQueens;  /* indexed by rank, giving
       the file number that a queen occupies in that rank.
       Interacts with lastRankFilled: entries in filesWithQueens
       are meaningful only for ranks <= lastRankFilled. Entries
@@ -26,11 +26,14 @@ public class BoardForQueensPuzzle {
     public BoardForQueensPuzzle( BoardForQueensPuzzle old) {
         // your code here
    	lastRankFilled = old.lastRankFilled;
-	int[] newArray = new int[filesWithQueens.size]
-	for(int index = 0; index < old.filesWithQueens.size; index++){
+	int size = old.filesWithQueens.length;
+	
+	int[] newArray = new int[size];
+	for(int index = 0; index < old.lastRankFilled + 1; index++){
 		newArray[index] = old.filesWithQueens[index];	
 	}
-	int[] filesWithQueens = newArray;
+	
+	filesWithQueens = newArray;
     }
 
 
