@@ -5,7 +5,7 @@
 ## Akash's remarks
 
 ### citations / worked with / received help from
-Other than piazza threads, class-wide discussions, GitHub repos, and the class web site, I didn't use any outside sources or received help from anybody.
+Other than piazza threads, class-wide discussions, GitHub repos, and the class web site, I didn't use any outside sources or receive help from anybody.
 
 ## Holmes's remarks
 
